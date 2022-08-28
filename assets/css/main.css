@@ -1,0 +1,83 @@
+.cards {
+    display: flex;
+    padding: 7rem;
+    justify-content: center;
+    gap: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.herois {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.imagem__herois {
+    width: 100%;
+}
+
+.imagem__herois img {
+    width: 100%;
+}
+
+.conteudo__herois {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 597px;
+    background: #e5e5e5;
+    padding: 2rem 5rem 0 5rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.conteudo__herois h2 {
+    font-size: 2rem;
+}
+
+.conteudo__herois p {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.conteudo__herois button {
+    border: none;
+    padding: 2rem 0;
+    border-radius: 5px;
+    transition: all .1s ease-in-out;
+    cursor: pointer;
+    width: 50%;
+    background-color: #00669F;
+    color: #e5e5e5;
+    font-size: 1.25rem;
+}
+
+.herois__relative {
+    position: relative;
+}
+
+.imagem__perfil {
+    position: absolute;
+    top: -70px;
+}
+
+.imagem__perfil img{
+    border-radius: 50%;
+}
+
+.vetor__relative {
+    position: relative;
+}
+
+.vetor__coracao {
+    position: absolute;
+    left: 3%;
+    top: 5%;
+}
+
+.vetor__coracao img {
+    width: 110%;
+}
